@@ -40,7 +40,7 @@ const Category = () => {
     // naviaget 
     const navigate = useNavigate();
     return (
-        <div>
+        <div className="container mx-auto"> 
             <div className="flex flex-col mt-5">
                 {/* main 1 */}
                 <div className="flex overflow-x-scroll lg:justify-center  hide-scroll-bar">
