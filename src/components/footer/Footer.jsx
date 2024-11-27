@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
-        <div>
+        <div className="container mx-auto">
             {/* footer  */}
             <footer className="text-gray-600 body-font bg-pink-600">
                 {/* main  */}
