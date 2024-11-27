@@ -4,7 +4,7 @@ import Navbar from "../navbar/Navbar";
 
 const Layout = ({children}) => {
     return (
-        <div>
+        <div className="container mx-auto">
             <Navbar/>
             <div className="main-content min-h-screen">
                 {children}
